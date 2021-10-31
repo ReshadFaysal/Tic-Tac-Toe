@@ -1,12 +1,5 @@
 /************************************************
 Project Name:   Tic-Tac-Toe.
-Created By:     The White Walkers
-
-Group Members:
-
-**Fuad Hassan
-**Moonwar Al Wardiful Nishan
-**Reshad Faysal
 *************************************************/
 
 #include<conio.h>
@@ -364,27 +357,6 @@ void put_X_O(char ch,int pos) //Placing Player's Mark
     }
     gotoxy(x,y);
     printf("%c",ch);
-}
-
-void about()
-{
-    gotoxy(37,03);
-    printf("About");
-    printf("\n\nTic-Tac-Toe game version 2.0.6. Created by \"The White Walkers\". The group members");
-    printf("\nare Fuad Hassan, Moonwar Al Wardiful Nishan, Reshad Faysal & Obviously Google :D");
-    printf("\nThis game is result of 3 nights of no sleeping in a row. We actually had to design an");
-    printf("\nAI for the computer to counter the player's moves. All the credit goes to Fuad Hassan,");
-    printf("\nthe leader of \"The White Walkers\".");
-    printf("\n\nThere is two good news.Version 3.0.0 of this game is in development. We are trying to ");
-    printf("\nadd a multi-player mode. In the multi-player mode you'll be able to play with your ");
-    printf("\nfriends. The second good news is there's an Android app coming too. ^_^ ");
-    printf("\n\nContact us:");
-    printf("\nFuad Hassan       fb.com/SirFuadHassan ");
-    printf("\nNishan            fb.com/moonwar.nishan");
-    printf("\nReshad Faysal     fb.com/reshad.faysal");
-    printf("\n\nThe game is free but if you are satisfied with the game feel free to donate us some TEKA-POISHA.");
-    printf("\nWell, we are GORIB. We won't mind taking your money.\n\n\n\n");
-    exit(0);
 }
 
 
